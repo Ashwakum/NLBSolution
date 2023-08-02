@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.3",
+    "libraryName": "kudu-telex-solution",
+    "libraryId": "da6371b7-82fb-4084-82b8-ed8982c547f7",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "kudu-telex-solution",
+    "solutionShortDescription": "kudu-telex-solution description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

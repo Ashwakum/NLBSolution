@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "kudu-telex-solution-client-side-solution",
+    "id": "da6371b7-82fb-4084-82b8-ed8982c547f7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "kudu-telex-solution description"
+      },
+      "longDescription": {
+        "default": "kudu-telex-solution description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "kudu-telex-solution Feature",
+        "description": "The feature that activates elements of the kudu-telex-solution solution.",
+        "id": "dd2f0837-84a3-4483-bee3-7f95d3b9452b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/kudu-telex-solution.sppkg"
+  }
+}

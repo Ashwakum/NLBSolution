@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kudugrid-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/kudugrid/KudugridWebPart.js",
+          "manifest": "./src/webparts/kudugrid/KudugridWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KudugridWebPartStrings": "lib/webparts/kudugrid/loc/{locale}.js"
+  }
+}
